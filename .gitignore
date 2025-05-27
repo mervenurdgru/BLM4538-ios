@@ -1,0 +1,54 @@
+# Ortak node_modules
+node_modules/
+
+# Expo / React Native (frontend)
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+frontend/.expo/
+frontend/dist/
+frontend/build/
+frontend/*.tsbuildinfo
+
+# Backend
+backend/*.log
+backend/*.tsbuildinfo
+backend/node_modules/
+backend/.env
+
+# Native build dosyaları
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug dosyaları
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Local environment
+.env
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# IDE/Editor dosyaları
+.vscode/
+.idea/
